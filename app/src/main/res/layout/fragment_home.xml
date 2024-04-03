@@ -1,0 +1,60 @@
+<!-- res/layout/fragment_home.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvberita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Berita Terbaru"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/tvisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Takut Belajar Bahasa Jepang? Tak Perlu Takut, Pasti Menyenangkan, Kok!"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvberita"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvisi" />
+
+    <TextView
+
+        android:id="@+id/tvdeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Kudus – Rabu, 1 Februari 2024, SMK Raden Umar Said Kudus kedatangan seorang Japanese Language Expert berkebangsaan Jepang yang bernama Kadoi Minako dari The Japan Foundation Semarang. Tujuan dari kunjungan tersebut adalah untuk mengobservasi pembelajaran bahasa Jepang di SMK Raden Umar Said Kudus.Kedatangan Kadoi Minako atau yang biasa dipanggil Kadoi-sensei ke SMK Raden Umar Said Kudus ini bermula ketika dirinya bertemu bapak/ibu guru bahasa Jepang di MGMP (Musyawarah Guru Mata Pelajaran) Jawa Tengah. “Saya bertanya kepada mereka, ‘Apakah ada sekolah di Kudus yang mengajarkan bahasa Jepang?’, dari sana lah saya mendengar bahwa sekolah ini memiliki pelajaran bahasa Jepang.”Ketika berkeliling sekolah, Kadoi-sensei melihat siswa-siswi SMK Raden Umar Said Kudus sangat bebas dalam berkreasi. Tak lupa dengan banyaknya hal yang dikerjakan oleh para murid di sekolah.“Hari ini saya sudah melihat pembelajaran bahasa Jepang yang diajarkan Rieke-sensei. Rieke-sensei dan anak-anak terlihat sangat menyenangkan saat belajar bahasa Jepang. Karena itulah, saya akan terus mendukung Rieke-sensei agar anak-anak bisa semakin tertarik dengan bahasa dan budaya Jepang.” ujar Kadoi-sensei setelah mengobservasi kegiatan belajar mengajar bahasa Jepang di kelas 10 Animasi 5, SMK Raden Umar Said Kudus.Menurut Madina, salah satu siswa dari kelas 10 Animasi 5, “Belajar bahasa Jepang juga sangat penting untuk ke depannya terutama ketika kita mendapatkan client dari Jepang saat bekerja atau ketika melanjutkan kuliah di negeri pohon sakura tersebut.” Dirinya juga mengungkapkan bahwa ia sangat bersemangat ketika kedatangan Kadoi-sensei, tetapi canggung di saat yang bersamaan."
+        android:textSize="13dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        android:textAlignment="center" />
+</androidx.constraintlayout.widget.ConstraintLayout>
